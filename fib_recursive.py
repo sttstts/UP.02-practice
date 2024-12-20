@@ -20,7 +20,7 @@ def measure_time_for_fib(n):
 if __name__ == "__main__":
     while True:
         try:
-            user_input = input("Введите целое число от 1 до 24 (или 'exit' для выхода): ")
+            user_input = input("Введите целое число от 1 до 40 (или 'exit' для выхода): ")
             if user_input.lower() == 'exit':
                 print("Выход из программы.")
                 break
