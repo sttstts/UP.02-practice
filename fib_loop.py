@@ -20,7 +20,7 @@ if __name__ == "__main__":
             if n == 0:
                 print("Выход из программы.")
                 break
-            elif n < 1 or n > 32:
+            elif n < 1 or n > 40:
                 print("Пожалуйста, введите число от 1 до 40.")
                 continue
 
