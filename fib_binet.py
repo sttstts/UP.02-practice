@@ -1,11 +1,10 @@
 import math
 
 def fib(n):
-    phi = (1 + math.sqrt(5)) / 2
-    psi = (1 - math.sqrt(5)) / 2
+    t = (1 + math.sqrt(5)) / 2
+    f = (1 - math.sqrt(5)) / 2
 
-    # Формула Бине
-    fib_n = (phi ** n - psi ** n) / math.sqrt(5)
+    fib_n = (t ** n - f ** n) / math.sqrt(5)
 
     return round(fib_n)
 

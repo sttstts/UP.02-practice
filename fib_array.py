@@ -14,7 +14,6 @@ def fib(n):
     print(fib_sequence)
     return fib_sequence
 
-# Пример вызова функции
 if __name__ == "__main__":
     try:
         n = int(input("Введите число n (от 1 до 40): "))

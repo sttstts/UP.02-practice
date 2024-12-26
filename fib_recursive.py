@@ -1,7 +1,6 @@
 import time
 
 def fib(n):
-    
     if n == 0:
         return 0
     elif n == 1:
@@ -10,7 +9,6 @@ def fib(n):
         return fib(n - 1) + fib(n - 2)
 
 def measure_time_for_fib(n):
-
     start_time = time.time()
     result = fib(n)
     end_time = time.time()

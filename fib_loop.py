@@ -1,6 +1,5 @@
 import time
 
-
 def fib(n):
     if n == 1:
         return 1
@@ -11,7 +10,6 @@ def fib(n):
     for _ in range(3, n + 1):
         prev, curr = curr, prev + curr
     return curr
-
 
 if __name__ == "__main__":
     while True:

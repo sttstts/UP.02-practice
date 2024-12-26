@@ -9,7 +9,6 @@ def fib_eo(n):
     else:
         print("odd")
 
-
 if __name__ == "__main__":
     try:
         n = int(input("Введите число n (1 ≤ n ≤ 10^6): "))
